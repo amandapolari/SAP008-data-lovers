@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data LoLvers</title>
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <header>
+          <img
+            class="banner-cover"
+            src="./img/capa-desktop-nao-duplicada.png"
+            alt="imagem da capa"
+          />
+      </header>
+      <main>
+        <h1 class="letters" id="initial-presentation">
+          Bem-vindo, invocador!<br />
+          Aqui você conhece os personagens de League of Legends para começar a
+          jogar!
+        </h1>
+        <section class="section-btn">
+          <form class="search-form" id="search-form">
+            <div class="forms"  id="form-pesquisar">
+              <label class="letters" id="description-btn1" for="pesquisar-por">Pesquisar por:</label>
+              <select id="pesquisar-por" class="seletor">
+                <option value="Assassin">Assassino</option>
+                <option value="Mage">Mago</option>
+                <option value="Fighter">Lutador</option>
+                <option value="Marksman">Atirador</option>
+                <option value="Support">Suporte</option>
+                <option value="Tank">Tanque</option>
+                <option value="Melee">Corpo a corpo</option>
+              </select>
+            </div> 
+            <div class="forms" id="form-ordenar">
+              <label class="letters" id="description-btn2" for="ordenar-por">Ordenar por:</label>
+              <select id="ordenar-por" class="seletor">
+                <optgroup name="" label="Dificuldade">
+                  <option value="dif-facil">Fácil</option>
+                  <option value="dif-medio">Médio</option>
+                  <option value="dif-dificil">Difícil</option>
+                </optgroup>
+                <optgroup name="" label="Nome">
+                  <option value="ordem-crescente">A-Z</option>
+                  <option value="ordem-decrescente">Z-A</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="botoes">
+              <button type="submit" class="btn" id="btn-search">
+                  Pesquisar
+              </button>
+              <button
+                  class="btn"
+                  id="btn-clear"
+                  onclick="window.location.reload()"
+                >
+                  Limpar
+              </button>
+            </div>
+          </form>
+        </section>
+        <p class="letters" id="filter-calculation"></p><!-- Aqui vai aparecer o resultado dos cálculos -->
+        <form class="section-change" id="section-change"><!-- Aqui vai alternar entre html de banners e html de cards -->
+          <div class="section-with-banners" id="section-with-banners">
+            <div class="foto-maior">
+              <button type="button" class="banner" id="banner-one">
+                <img class="foto-banner" id="foto-1" src="./img/foto-menor-adc.png" alt="imagem do banner 1"/>
+              </button>
+            </div>
+            <div class="fotos-menores">
+              <button type="button" class="banner" id="banner-two">
+                <img class="foto-banner" id="foto-2" src="./img/menor-sup.png" alt="imagem do banner 2"/>
+              </button>
+              <button type="button" class="banner" id="banner-three">
+                <img class="foto-banner" id="foto-3" src="./img/menor-assass.png" alt="imagem do banner 3"/>
+              </button>
+            </div>
+          </div>
+        </form>
+        <button class="btn" id="btn-return">Topo&#x2B06 </button>
+      </main>
+      <footer>
+        <p class="letters" id="developers">
+          Desenvolvido por
+          <a href="https://www.linkedin.com/in/amandapolari/" target="_blank"
+            >Amanda Polari</a
+          >
+          e
+          <a
+            href="https://www.linkedin.com/in/lizandra-miazaki-59b097227/"
+            target="_blank"
+            >Lizandra Miazaki</a
+          >
+        </p>
+      </footer>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
