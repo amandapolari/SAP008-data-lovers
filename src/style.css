@@ -26,7 +26,7 @@ body {
 
 /* => APRESENTAÇÃO */
 #initial-presentation {
-  font-size: 2vw;
+  font-size: 1.8vw;
   margin: 0vw 0.8vw 0.8vw 0.8vw;
 }
 
@@ -61,7 +61,7 @@ body {
   border: 1px solid #56e9ff;
   color: #000000;
   padding: 0.3vw;
-  border-radius: 7px;
+  border-radius: 25px;
 }
 
 .btn {
@@ -72,7 +72,7 @@ body {
 
 .seletor {
   text-align: justify;
-  width: 160px;
+  width: 8.5vw;
 }
 
 #btn-return {
@@ -124,6 +124,14 @@ a:hover {
 
 a {
   color: #229bcb;
+}
+
+footer {
+  bottom: 0;
+  position: inherit;
+  width: 100%;
+  text-align: center;
+  font-size: 1vw;
 }
 
 /* => CARDS */
