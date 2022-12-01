@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+*::selection {
+  background-color: #4555af;
+}
 
 /* => CORPO */
 body {
@@ -26,7 +29,7 @@ body {
 
 /* => APRESENTAÇÃO */
 #initial-presentation {
-  font-size: 1.8vw;
+  font-size: 1.6vw;
   margin: 0vw 0.8vw 0.8vw 0.8vw;
 }
 
@@ -136,7 +139,7 @@ footer {
 
 /* => CARDS */
 #section-change {
-  margin: 1rem;
+  margin: 2.5rem;
   text-align: center;
 }
 
