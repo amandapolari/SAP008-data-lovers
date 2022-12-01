@@ -36,7 +36,7 @@ A partir disso, desenvolvemos o [**Data LoLvers**](https://amandapolari.github.i
 ## 2. Definição de produto
 O [**Data LoLvers**](https://amandapolari.github.io/SAP008-data-lovers/src/index.html) foi pensado e formulado, inicialmente, para usuários que querem começar a jogar [_League of Legends_](https://www.leagueoflegends.com/pt-br/)  e, para isso, precisam conhecer e escolher um personagem (campeão) para iniciar essa jornada!
 
-Logo, a página inicial oferece aos usuários opções de três banneres clicáveis que levam diretamente ao resultado de campeões do tipo assassinos, atiradores e suporte com nível de dificuldade 'fácil', conforme o banner escolhido. 
+Logo, a página inicial oferece aos usuários opções de três banneres clicáveis que levam diretamente ao resultado de campeões do 'tipo' assassino, atirador e suporte com nível de dificuldade 'fácil', conforme o banner escolhido. 
 
 Adicionalmente o usuário tem a possibilidade de filtrar e ordenar os personagens de acordo com os tipos de campeões do jogo e os níveis de dificuldades existentes para cada um deles, respectivamente. Além disso, também é possível ordená-los por nome de forma ascendente (A-Z) e descendente (Z-A). 
 
