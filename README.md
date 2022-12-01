@@ -1,7 +1,7 @@
 <h1 align="center">Data Lovers</h1>
 <div align="center">
 
-![modelo com banner](/src/img/modelo-banners.png)
+![modelo com banner](/src/img/gif-data-lovers.gif)
 
 </div>
 <p align="center">
