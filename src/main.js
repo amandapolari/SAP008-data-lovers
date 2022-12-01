@@ -91,6 +91,8 @@ function direcionarBanner(event) {
     "dif-facil"
   );
   selectPesquisar.value = valorSelecionado;
+  const percentualFiltro = computeStats(dadosFiltrados, todosDados).percentual;
+  pFilterCalculation.innerHTML = `Total encontrado ${dadosFiltrados.length}, correspondendo à ${percentualFiltro} % do total de Campeões`;
   mostrarCards(ordenarDados(dadosFiltrados, "Dificuldade", "dif-facil"));
 }
 
