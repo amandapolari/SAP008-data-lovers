@@ -28,7 +28,7 @@
 ***
 ## 1. Resumo do Projeto
 
-O **Data Lovers** foi o segundo projeto desenvolvido no *bootcamp da Laboratória*. O principal objetivo é construir uma página web que permita visualizar, filtrar e ordenar dados de acordo com a necessidade do usuário.
+O **Data Lovers** foi o segundo projeto desenvolvido no *bootcamp da Laboratória*. O principal objetivo era construir uma página web que permita visualizar, filtrar e ordenar dados de acordo com a necessidade do usuário.
 
 A partir disso, desenvolvemos o [**Data LoLvers**](https://amandapolari.github.io/SAP008-data-lovers/src/index.html).
 
